@@ -8,7 +8,7 @@ class FormularioApp(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.ui.pushButton_enviar.clicked.connect(self.enviar_dados)
+        self.ui.pushButton_salvar.clicked.connect(self.enviar_dados)
         self.ui.pushButton_limpar.clicked.connect(self.limpar_campos)
 
     def enviar_dados(self):
